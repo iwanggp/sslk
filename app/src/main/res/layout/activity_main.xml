@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/mainContainer"
+        android:layout_width="fill_parent"
+        android:layout_above="@+id/bottomTabGroup"
+        android:layout_alignParentTop="true"
+        android:layout_height="fill_parent"></FrameLayout>
+
+
+    <TextView
+        android:layout_above="@+id/bottomTabGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#e9e9e9" />
+
+    <LinearLayout
+        android:id="@+id/bottomTabGroup"
+        android:layout_alignParentBottom="true"
+        style="@style/tabContentTheme">
+
+        <LinearLayout
+            android:id="@+id/tab_widget_item1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/tab_widget_item1_img"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_map_camera_checked" />
+
+            <TextView
+                android:id="@+id/tab_widget_item1_tv"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:textColor="@color/woklk_orange_2"
+                android:text="路况" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/tab_widget_item2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/tab_widget_item2_img"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_community" />
+
+            <TextView
+                android:id="@+id/tab_widget_item2_tv"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:textColor="@color/gray"
+                android:text="社区" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_widget_item3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/tab_widget_item3_img"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_personal" />
+
+            <TextView
+                android:id="@+id/tab_widget_item3_tv"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:textColor="@color/gray"
+                android:text="违章" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_widget_item4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/tab_widget_item4_img"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_more" />
+
+            <TextView
+                android:id="@+id/tab_widget_item4_tv"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:textColor="@color/gray"
+                android:text="更多" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

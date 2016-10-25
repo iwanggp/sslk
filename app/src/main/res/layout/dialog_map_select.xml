@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/lkBtn"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:text="路况"
+        android:textColor="@color/white"
+        android:background="@color/woklk_orange_4"
+        android:textSize="16sp"
+        android:tag="0" />
+
+    <Button
+        android:id="@+id/sgBtn"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="10dp"
+        android:text="事故"
+        android:textColor="@color/white"
+        android:background="@color/woklk_orange_4"
+        android:textSize="16sp"
+        android:tag="1" />
+
+    <Button
+        android:id="@+id/xqBtn"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="10dp"
+        android:text="心情"
+        android:textColor="@color/white"
+        android:background="@color/woklk_orange_4"
+        android:textSize="16sp"
+        android:tag="2" />
+
+    <Button
+        android:id="@+id/fdBtn"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="10dp"
+        android:text="交警"
+        android:textColor="@color/white"
+        android:background="@color/woklk_orange_4"
+        android:textSize="16sp"
+        android:tag="3" />
+</LinearLayout>

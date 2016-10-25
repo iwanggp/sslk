@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/woklk_default_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/vioTip"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:text="登录后,点击缩略图可查看高清违章图片"
+        android:gravity="center_vertical"
+        android:background="@color/woklk_orange_1"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textSize="22sp"
+        android:text=""
+        android:gravity="center_vertical"
+        android:layout_below="@+id/vioTip"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <org.kymjs.aframe.ui.widget.KJListView
+        android:id="@+id/vioList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#eeeeee"
+        android:layout_below="@+id/year"
+        android:layout_above="@+id/feeTipContainer"
+        android:background="#eee"
+        android:listSelector="#00eeeeee"
+        android:dividerHeight="0dp" />
+
+    <RelativeLayout
+        android:id="@+id/feeTipContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/borderTop"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#ddd"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/tip1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:layout_below="@+id/borderTop"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:text="共选择" />
+
+        <TextView
+            android:id="@+id/vioCheckNum"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@+id/tip1"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/borderTop"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/tip2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@+id/vioCheckNum"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_below="@+id/borderTop"
+            android:text="条违章,共" />
+
+        <TextView
+            android:id="@+id/vioFeeNum"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@+id/tip2"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_below="@+id/borderTop"
+            android:textColor="@color/red"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/tip3"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@+id/vioFeeNum"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_below="@+id/borderTop"
+            android:text="元" />
+
+        <Button
+            android:id="@+id/goFeeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:background="@color/woklk_orange_4"
+            android:text="去交费" />
+    </RelativeLayout>
+</RelativeLayout>

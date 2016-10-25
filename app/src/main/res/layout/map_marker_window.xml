@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/map_road_bg"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/default_avatar" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/avatar"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:text=""
+                android:textColor="@color/woklk_orange_2" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/hideBtn"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/close"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+    <com.jufan.cyss.wo.ui.view.EmojiTextView
+        android:id="@+id/msgContent"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="18sp" />
+
+    <com.jufan.cyss.wo.ui.view.MarkerImageGridView
+        android:id="@+id/imgGrid"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:columnWidth="60dp"
+        android:numColumns="3"
+        android:listSelector="#00ffffff"
+        android:horizontalSpacing="2dp"
+        android:verticalSpacing="2dp"
+        android:layout_marginTop="4dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right|center_vertical">
+
+        <LinearLayout
+            android:id="@+id/likeContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/likeBtn"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_like_indigo" />
+
+            <TextView
+                android:id="@+id/likeCount"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:layout_marginLeft="4dp"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/commentContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/commentBtn"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_comment_indigo" />
+
+            <TextView
+                android:id="@+id/commentCount"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:layout_marginLeft="4dp"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.jufan.cyss.wo.ui.view.MarkerCommentListView
+        android:id="@+id/commentList"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1dp"
+        android:divider="#ccc"
+        android:listSelector="#00ffffff" />
+</LinearLayout>

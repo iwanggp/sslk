@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.amap.api.maps.MapView>
+
+    <Button
+        android:id="@+id/selectBtn"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:text="+"
+        android:layout_alignParentBottom="true"
+        android:background="@color/woklk_orange_3"
+        android:layout_margin="18dp"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+<Button
+    android:layout_width="46dp"
+    android:layout_height="46dp"
+    android:id="@+id/mshare"
+    android:layout_alignParentBottom="true"
+    android:layout_margin="18dp"
+    android:onClick="share"
+    android:background="@drawable/ss"
+    android:layout_alignParentLeft="true"/>
+</RelativeLayout>

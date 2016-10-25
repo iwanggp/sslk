@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.jufan.cyss.wo.ui.view.CommunityNewsListView
+        android:id="@+id/communityNewsList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="#f2f2f2"
+        android:dividerHeight="10dp"
+        android:background="@color/white" />
+</LinearLayout>

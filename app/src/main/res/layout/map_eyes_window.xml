@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/map_road_bg"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="22dp">
+
+    <ImageView
+        android:id="@+id/hideBtn"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/close"
+        android:layout_alignParentRight="true" />
+
+    <com.jufan.cyss.wo.ui.view.ElectronicEyesListView
+        android:id="@+id/eyesList"
+        android:layout_width="fill_parent"
+        android:layout_height="240dp"
+        android:layout_below="@+id/hideBtn"
+        android:layout_marginTop="8dp" />
+</RelativeLayout>

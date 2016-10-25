@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+<<<<<<< HEAD
+        jar="C:\Users\cyjss\Documents\android_work\Woklk\app\libs\UPPayAssistEx.jar"
+=======
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\libs\android-saripaar-1.0.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="c24cfd9331b6d5a2ee15dccb60774c7cc5debd99">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\android-saripaar-1.0.3-7d2f640f496028aa03218525f5ca0991812902e9.jar" />
+    </item>
+    <item
+        jar="C:\Users\duan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+>>>>>>> origin/Dev-wgp
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-dd639ec92271782e4fef10e88397ac081682adcf.jar" />
+    </item>
+    <item
+<<<<<<< HEAD
+        jar="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\exploded-aar\com.github.dmytrodanylyk.android-process-button\library\1.0.2\classes.jar"
+=======
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-2a2a0275be66f7e020793e50f862032f01ce9de5.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\libs\umeng_social_sdk.jar"
+>>>>>>> origin/Dev-wgp
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="857c78387c5b911f5dc9b20b307f0edfd16befed">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\umeng_social_sdk-2acde81b0a2aaf9f0335cf1185e077e6127e1fe5.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\Test\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\Test\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-88aa6b8cf947ad94bb5b115ad9cb32f3d338ade6.jar" />
+    </item>
+    <item
+<<<<<<< HEAD
+        jar="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\exploded-aar\com.daimajia.androidanimations\library\1.1.3\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8cec50fc9cc847bad0d6ed7d93814f4b34744521">
+        <dex dex="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\pre-dexed\debug\classes-f40ffdc28e7c55f5e8f7b409d992e45963a1afa8.jar" />
+    </item>
+    <item
+        jar="C:\Users\cyjss\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-20c236d52fedcafbad5c4374421bb0d03f165cbb.jar" />
+    </item>
+    <item
+        jar="C:\Users\cyjss\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\pre-dexed\debug\library-2.4.0-95feb3b89bb4b453a1ca28cbaf7eb1fb0a873451.jar" />
+    </item>
+    <item
+        jar="C:\Users\cyjss\Documents\android_work\Woklk\app\libs\avoscloud-sdk-v2.7.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="ab9cd76781c4f22c04c91bdaae51190abd0f53f2">
+        <dex dex="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\pre-dexed\debug\avoscloud-sdk-v2.7-d7fe026b4d07324e77c08314261f7498c8d22a5c.jar" />
+    </item>
+    <item
+        jar="C:\Users\cyjss\Documents\android_work\Woklk\app\libs\KJFrameForAndroid_V1.321_lzt.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="89fb4d03381a28439db93327dbb73c0ac940672e">
+        <dex dex="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\pre-dexed\debug\KJFrameForAndroid_V1.321_lzt-6e3204ff2b2b54639fea2d2c0680a9e2ef8a8b2d.jar" />
+    </item>
+    <item
+        jar="C:\Users\cyjss\.gradle\caches\modules-2\files-2.1\com.telly\groundy\1.5\ce03188b6cebf18abfb2c0a809c7433fdbed7fda\groundy-1.5.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="ce03188b6cebf18abfb2c0a809c7433fdbed7fda">
+        <dex dex="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\pre-dexed\debug\groundy-1.5-49edcef7e1430d2a431dc874b8383e42911ee754.jar" />
+    </item>
+    <item
+        jar="C:\Users\cyjss\Documents\android_work\Woklk\app\libs\httpmime-4.2.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="dba4d4d224e2ca872af5be8d2992777583145478">
+        <dex dex="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\pre-dexed\debug\httpmime-4.2.4-d8d60445b9abd7a61322fc9b45355a580d6e40fd.jar" />
+    </item>
+    <item
+        jar="C:\Users\cyjss\.gradle\caches\modules-2\files-2.1\com.michaelpardo\activeandroid\3.1.0-SNAPSHOT\4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08\activeandroid-3.1.0-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08">
+        <dex dex="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\pre-dexed\debug\activeandroid-3.1.0-SNAPSHOT-994f1f7675764b2c0f1a9e9ebb9d556c98aab38e.jar" />
+    </item>
+    <item
+        jar="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-d44e24ace92f77a31c5209b1d2ecb95ed8cf8b99.jar" />
+    </item>
+    <item
+        jar="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\exploded-aar\it.sephiroth.android.library.easing\android-easing\1.0.3\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="90c8cd98f8c1cd37285d7bf9ea5a9ec6df3a99b6">
+        <dex dex="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\pre-dexed\debug\classes-1505bd11b72a91e46afa1e417326d38d3b309683.jar" />
+    </item>
+    <item
+        jar="C:\Users\cyjss\.gradle\caches\modules-2\files-2.1\com.umeng.analytics\analytics\5.5.3\5d503ec571e2e98d972209afa203f94d11882c15\analytics-5.5.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="5d503ec571e2e98d972209afa203f94d11882c15">
+        <dex dex="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\pre-dexed\debug\analytics-5.5.3-b3c0a601b6e6b84eefa35a9fc02259a09634dc50.jar" />
+    </item>
+    <item
+        jar="C:\Users\cyjss\Documents\android_work\Woklk\app\libs\avoscloud-statistics-v2.6.10.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="c190c58170384113031767dee71c792ed446f795">
+        <dex dex="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\pre-dexed\debug\avoscloud-statistics-v2.6.10.4-a3fe614b23dc3dc99c62b9b5b9cfae0d0365d35b.jar" />
+    </item>
+    <item
+        jar="C:\Users\cyjss\Documents\android_work\Woklk\app\libs\fastjson.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d449ce9b6023c059db09be5170229162a77e007a">
+        <dex dex="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\pre-dexed\debug\fastjson-b31e06ff85cef30060c74de19ff53c2cd6dba72f.jar" />
+    </item>
+    <item
+        jar="C:\Users\cyjss\Documents\android_work\Woklk\app\libs\umeng_social_sdk.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="857c78387c5b911f5dc9b20b307f0edfd16befed">
+        <dex dex="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\pre-dexed\debug\umeng_social_sdk-06d91e9d5ccfd5ed5ff38bea7679524911a1a52a.jar" />
+    </item>
+    <item
+        jar="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
+        <dex dex="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\pre-dexed\debug\classes-4b9c1b574914ea50ca818ead913027a04ce8c5db.jar" />
+    </item>
+    <item
+        jar="C:\Users\cyjss\Documents\android_work\Woklk\app\libs\android-async-http-1.4.6.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.6-779af624aaf98d70f0277dbbcfb833a0a1bf8aa3.jar" />
+    </item>
+    <item
+        jar="C:\Users\cyjss\.gradle\caches\modules-2\files-2.1\com.networkbench.newlens.agent.android\nbs.newlens.agent\1.2.2\5a520472a94aca6421a3225be80e038149554858\nbs.newlens.agent-1.2.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="5a520472a94aca6421a3225be80e038149554858">
+        <dex dex="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\pre-dexed\debug\nbs.newlens.agent-1.2.2-758d23bdd798ed42f16f873c7a38500b6dfd668f.jar" />
+    </item>
+    <item
+        jar="C:\Users\cyjss\Documents\android_work\Woklk\app\libs\com.umeng.message.lib.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f804d6417235391474641a911f8332b267703a2e">
+        <dex dex="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\pre-dexed\debug\com.umeng.message.lib-39e57f62822571b48a920e7ad207731f2c121db2.jar" />
+    </item>
+    <item
+        jar="C:\Users\cyjss\Documents\android_work\Woklk\app\libs\Android_Location_V1.3.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="2ffeb17da57de5b5e57ec44c6397fb4d682cf0db">
+        <dex dex="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\pre-dexed\debug\Android_Location_V1.3.0-97ec92f11a7209c8adb01c1e707cc8bd67b7c30a.jar" />
+    </item>
+    <item
+        jar="C:\Users\cyjss\Documents\android_work\Woklk\app\libs\SocialSDK_WeiXin_2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="ec0faf74d92d4882d9be51b1b9ebb5ebc83fbea7">
+        <dex dex="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\pre-dexed\debug\SocialSDK_WeiXin_2-de17d2a3ff5066304a6523d1be9c50d463e0ef0c.jar" />
+    </item>
+    <item
+        jar="C:\Users\cyjss\Documents\android_work\Woklk\app\libs\SocialSDK_WeiXin_1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d7c2f29c05b35e8c8713be2b81c41cf18f98b64a">
+        <dex dex="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\pre-dexed\debug\SocialSDK_WeiXin_1-2c2c3eaa2b31e8af2cff0a0745866fdff3c2857b.jar" />
+    </item>
+    <item
+        jar="C:\Users\cyjss\Documents\android_work\Woklk\app\libs\avoscloud-push-v2.7.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d583e555918393887bc7fe79f604791d4d1e528d">
+        <dex dex="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\pre-dexed\debug\avoscloud-push-v2.7-f0aff831e6915982ef039986f4a1068216504972.jar" />
+=======
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\libs\AMap_3DMap_V2.4.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="37703c4a641f0f61d4567c987da1f26cd071cc0e">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\AMap_3DMap_V2.4.0-9e18547b47983a0cb92fce4b7887f298620e017c.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\libs\UPPayAssistEx.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="398c7d9fcced3befc2e3279d569fc7c964dcc452">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\UPPayAssistEx-07a91d15526091bd5d7f382b563823b72d91aac0.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\exploded-aar\it.sephiroth.android.library.imagezoom\imagezoom\1.0.5\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="325a1fc8175dc80366c7162b7a62193d3a231d3b">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\classes-29ecc5fd2b333b8589b65180fcd1a47b3227233b.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-750c924f37501b3c42b60370eed55f6a4a947582.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\libs\avoscloud-statistics-v2.6.10.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="c190c58170384113031767dee71c792ed446f795">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\avoscloud-statistics-v2.6.10.4-1d794468fb8c5c7e809df8b21751be095c817cd1.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\libs\umeng-update-v2.6.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8f00af139315de2cd24466f0c72e497fccd0b631">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\umeng-update-v2.6.0-b6a8846ece7edfa4ebc70158b8dfe4d4ace96ff1.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\libs\AMap_Services_V2.3.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="89ccf8789dad06e5ed2eab33e89d1dfab5226bba">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\AMap_Services_V2.3.1-a199912d2b33819271f28f442f6c911ac4a37536.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\exploded-aar\it.sephiroth.android.library.easing\android-easing\1.0.3\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="90c8cd98f8c1cd37285d7bf9ea5a9ec6df3a99b6">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\classes-8ef80be9cb26c32a8d77b4b22426daf5f10e3b88.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\libs\avoscloud-push-v2.7.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d583e555918393887bc7fe79f604791d4d1e528d">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\avoscloud-push-v2.7-c47707c2798308be9b45656cf4684b52bc877949.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\libs\Android_Location_V1.3.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="2ffeb17da57de5b5e57ec44c6397fb4d682cf0db">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\Android_Location_V1.3.0-7b84fa50b5c5fd5c391ce6099094a95127346b2f.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\libs\SocialSDK_WeiXin_2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="ec0faf74d92d4882d9be51b1b9ebb5ebc83fbea7">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\SocialSDK_WeiXin_2-d9d5a99e7ded55b03aa7e7b6f74b123cedd4a9b7.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\libs\Java-WebSocket-1.2.0-leancloud.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="221fb6750fcf164a85a98bbbafe0879e18868562">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\Java-WebSocket-1.2.0-leancloud-09c22b3e2629bb73d9a5449a6b98ae036e129c54.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\libs\com.umeng.message.lib.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f804d6417235391474641a911f8332b267703a2e">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\com.umeng.message.lib-a92feae8eaf39c535b50eb3bdd7d21dd0b79fbfe.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\Test\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\Test\build\intermediates\pre-dexed\debug\classes-e947d10664ca0264ffa5663ec5a9b137fc3f62ed.jar" />
+    </item>
+    <item
+        jar="C:\Users\duan\.gradle\caches\modules-2\files-2.1\com.networkbench.newlens.agent.android\nbs.newlens.agent\1.2.2\5a520472a94aca6421a3225be80e038149554858\nbs.newlens.agent-1.2.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="5a520472a94aca6421a3225be80e038149554858">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\nbs.newlens.agent-1.2.2-b8226c41f2ae8bc2ee7324e2a3e6f7ca7bceb2b6.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\exploded-aar\com.daimajia.easing\library\1.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e88a9ed27f98f8c0701d03d5553ce6111ca34a5b">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\classes-45ef6dc4105b8d188eb10e3b9c09fe2b08e2fa44.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\libs\httpmime-4.2.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="dba4d4d224e2ca872af5be8d2992777583145478">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\httpmime-4.2.4-955d245ec14bb3dd0b166a09d8b760708e7b3f86.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\libs\android-async-http-1.4.6.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.6-aedfd4850baaaee5c19f1c1638b4361c387e38bc.jar" />
+>>>>>>> origin/Dev-wgp
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\exploded-aar\com.github.dmytrodanylyk.android-process-button\library\1.0.2\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="20f213a9683c4fb2f6c7fe6965a42e6210a16b8f">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\classes-f1cb6c01f088726fe713fae1d94fa3630a3a3dfb.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\libs\avoscloud-sdk-v2.7.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="ab9cd76781c4f22c04c91bdaae51190abd0f53f2">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\avoscloud-sdk-v2.7-07efde0eb945cab82c49320a03037190bdbaac38.jar" />
+    </item>
+    <item
+        jar="C:\Users\duan\.gradle\caches\modules-2\files-2.1\com.telly\groundy\1.5\ce03188b6cebf18abfb2c0a809c7433fdbed7fda\groundy-1.5.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="ce03188b6cebf18abfb2c0a809c7433fdbed7fda">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\groundy-1.5-ab751be38ad1206c486b4a1df6f0bf2738589a0f.jar" />
+    </item>
+    <item
+        jar="C:\Users\duan\.gradle\caches\modules-2\files-2.1\com.michaelpardo\activeandroid\3.1.0-SNAPSHOT\4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08\activeandroid-3.1.0-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\activeandroid-3.1.0-SNAPSHOT-fc835d29fc50611b97bee3d077510f990db64d2c.jar" />
+    </item>
+    <item
+<<<<<<< HEAD
+        jar="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\exploded-aar\com.fortysevendeg.swipelistview\swipelistview\1.0-SNAPSHOT\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e4c70565b4247864e4577107e53f604de0ae56d3">
+        <dex dex="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\pre-dexed\debug\classes-75fd971ae67b99185205c13ab699dcb7fa54a994.jar" />
+=======
+        jar="C:\Users\duan\.gradle\caches\modules-2\files-2.1\com.umeng.analytics\analytics\5.5.3\5d503ec571e2e98d972209afa203f94d11882c15\analytics-5.5.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="5d503ec571e2e98d972209afa203f94d11882c15">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\analytics-5.5.3-d04e4ebe7a58377a294ad333e34c792e878abfd3.jar" />
+>>>>>>> origin/Dev-wgp
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\libs\SocialSDK_Sina.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="fd07c18d274be387922d55964e04cb418133c80f">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\SocialSDK_Sina-8680737b47c23960c1b0c95ffac7573f1fe4e465.jar" />
+    </item>
+    <item
+        jar="C:\Users\duan\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\library-2.4.0-197bad448ae43e369fa36c2508ebda7ae3a86c46.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\libs\UPPayPluginEx.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="106882c44925f05bc171cff00f073834ccfa7a97">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\UPPayPluginEx-46673e1aae8191d2026aef9bbd67e1348dabe435.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\Test\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\Test\build\intermediates\pre-dexed\debug\classes-8f7a6c94b56687cec3fd7d3e9258e749dc67227d.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\classes-ab0b1f37398b7fa5b147b5785a5da9e30ec8e7d4.jar" />
+    </item>
+    <item
+        jar="C:\Users\duan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\Test\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-7a253de82e3b8e7e857a99d9f84bf0abd17a29ae.jar" />
+    </item>
+    <item
+<<<<<<< HEAD
+        jar="C:\Users\cyjss\Documents\android_work\Woklk\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+=======
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\libs\KJFrameForAndroid_V1.321_lzt.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="89fb4d03381a28439db93327dbb73c0ac940672e">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\KJFrameForAndroid_V1.321_lzt-edf458b9224b37c73f77502c8a7270af4320a459.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\libs\SocialSDK_WeiXin_1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d7c2f29c05b35e8c8713be2b81c41cf18f98b64a">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\SocialSDK_WeiXin_1-d76db20f2c899722ef84d07f78228288559c5063.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\exploded-aar\com.daimajia.androidanimations\library\1.1.3\classes.jar"
+>>>>>>> origin/Dev-wgp
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8cec50fc9cc847bad0d6ed7d93814f4b34744521">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\classes-49207ef5785b074aabe13a8f15ae9341e3039188.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\classes-99a6dae142c0e7836ec2231edd64fd2855797a40.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\libs\fastjson.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d449ce9b6023c059db09be5170229162a77e007a">
+        <dex dex="D:\GoogleDownload\lianzt-sslk-android-master\sslk-android\app\build\intermediates\pre-dexed\debug\fastjson-14858c3322f9f060ca7344bfdb5b1e721102c584.jar" />
+    </item>
+
+</items>

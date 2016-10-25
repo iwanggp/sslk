@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">沃看路况</string>
+    <string name="input_phone_number">请输入手机号</string>
+    <string name="input_password">请输入密码</string>
+
+</resources>

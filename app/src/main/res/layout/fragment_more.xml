@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/woklk_default_bg">
+
+    <RelativeLayout
+        android:id="@+id/feedback"
+        android:layout_width="fill_parent"
+        android:layout_height="52dp"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#444648"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:text="意见反馈" />
+
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/right_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/aroundBuilding"
+        android:layout_width="fill_parent"
+        android:layout_height="52dp"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#444648"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:text="周边设施" />
+
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/right_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/weatherContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="52dp"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#444648"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:text="天气预报" />
+
+        <ProgressBar
+            android:id="@+id/weatherLoading"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/weatherThumb"
+            android:visibility="gone"
+            android:layout_marginRight="10dp" />
+
+        <ImageView
+            android:id="@+id/weatherThumb"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/weatherRightArrow"
+            android:visibility="gone"
+            android:layout_marginRight="10dp" />
+
+        <ImageView
+            android:id="@+id/weatherRightArrow"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/right_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/aboutUs"
+        android:layout_width="fill_parent"
+        android:layout_height="52dp"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        android:visibility="gone"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#444648"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:text="关于我们" />
+
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/right_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="52dp"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        android:visibility="gone"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#444648"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:text="帮助说明" />
+
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/right_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/share"
+        android:layout_width="fill_parent"
+        android:layout_height="52dp"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#444648"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:text="好友分享" />
+
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/right_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/update"
+        android:layout_width="fill_parent"
+        android:layout_height="52dp"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#444648"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:text="检验更新" />
+
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/right_arrow" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/woklk_default_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/hphmContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/icHphm"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_hphm"
+            android:layout_centerVertical="true"
+            android:layout_margin="6dp"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/hphmTip"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/icHphm"
+            android:textColor="@color/black"
+            android:text="豫A" />
+
+        <EditText
+            android:id="@+id/hphm"
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:background="@color/white"
+            android:layout_marginLeft="4dp"
+            android:textSize="18sp"
+            android:inputType="text"
+            android:layout_toRightOf="@+id/hphmTip"
+            android:maxLines="1"
+            android:maxLength="5"
+            android:hint="请输入号牌号码" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/hpzlContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/icHpzl"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="6dp"
+            android:src="@drawable/ic_hpzl"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true" />
+
+        <RadioGroup
+            android:id="@+id/hpzlGroup"
+            android:layout_width="fill_parent"
+            android:layout_toRightOf="@+id/icHpzl"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/hpzl02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="小型车辆"
+                android:checked="true"
+                android:tag="02" />
+
+            <RadioButton
+                android:id="@+id/hpzl01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginLeft="10dp"
+                android:text="大型车辆"
+                android:tag="01" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/clsbdhContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/icClsbdh"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_clsbdh"
+            android:layout_centerVertical="true"
+            android:layout_margin="6dp"
+            android:layout_alignParentLeft="true" />
+
+        <EditText
+            android:id="@+id/clsbdh"
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:background="@color/white"
+            android:layout_marginLeft="4dp"
+            android:textSize="18sp"
+            android:inputType="text"
+            android:layout_toRightOf="@+id/icClsbdh"
+            android:maxLines="1"
+            android:maxLength="6"
+            android:hint="请输入车辆识别代号后六位" />
+    </RelativeLayout>
+</LinearLayout>

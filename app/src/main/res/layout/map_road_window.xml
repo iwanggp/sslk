@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="200dp"
+    android:layout_height="140dp"
+    android:background="@drawable/map_road_bg"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+
+        <ImageView
+            android:id="@+id/hideBtn"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/close" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/roadName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:gravity="center_horizontal"
+        android:textColor="#343638" />
+
+    <LinearLayout
+        android:id="@+id/btnGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/roadName"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/checkBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1.0"
+            android:layout_margin="4dp"
+            android:textColor="@color/white"
+            android:background="@color/woklk_orange_1"
+            android:textSize="16sp"
+            android:text="查看" />
+
+        <Button
+            android:id="@+id/favBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1.0"
+            android:layout_margin="4dp"
+            android:textColor="@color/white"
+            android:background="@color/woklk_orange_3"
+            android:textSize="16sp"
+            android:text="收藏" />
+    </LinearLayout>
+</LinearLayout>

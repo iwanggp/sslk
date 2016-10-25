@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.jufan.cyss.wo.ui.view.EmojiEditText
+        android:id="@+id/postContent"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:background="@color/white"
+        android:hint="出现了什么新的情况？"
+        android:singleLine="false"
+        android:inputType="textMultiLine"
+        android:gravity="left|top"
+        android:padding="10dp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <ImageView
+            android:id="@+id/pickImg"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="2dp"
+            android:layout_toLeftOf="@+id/camera"
+            android:src="@drawable/pick_image" />
+
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toLeftOf="@+id/emoji"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/pick_camera" />
+
+        <ImageView
+            android:id="@+id/emoji"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/pick_emoji"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp" />
+    </RelativeLayout>
+
+    <com.jufan.cyss.wo.ui.view.ImageShownGridView
+        android:id="@+id/imgGrid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:horizontalSpacing="2dp"
+        android:verticalSpacing="2dp"
+        android:columnWidth="120dp"
+        android:numColumns="3" />
+
+    <com.jufan.cyss.wo.ui.view.EmojiGridView
+        android:id="@+id/emojiGrid"
+        android:layout_width="fill_parent"
+        android:layout_height="220dp"
+        android:columnWidth="60dp"
+        android:numColumns="6"
+        android:visibility="gone" />
+
+</LinearLayout>

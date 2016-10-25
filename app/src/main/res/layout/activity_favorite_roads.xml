@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/favRoadsList"
+        android:layout_above="@+id/deleteBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"></ListView>
+
+    <TextView
+        android:id="@+id/noFavTip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="没有收藏摄像头"
+        android:visibility="gone"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:text="删除"
+        android:background="@color/woklk_orange_3"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="gone" />
+</RelativeLayout>

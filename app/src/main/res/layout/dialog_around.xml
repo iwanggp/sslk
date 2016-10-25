@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="周边设施"
+        android:textSize="22sp"
+        android:textColor="@color/black" />
+
+    <GridView
+        android:id="@+id/aroundGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:layout_above="@+id/cancelBtn"
+        android:verticalSpacing="12dp"
+        android:layout_marginTop="6dp"
+        android:listSelector="#00ffffff"
+        android:columnWidth="100dp"
+        android:layout_below="@+id/title" />
+
+    <Button
+        android:id="@+id/cancelBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:background="#cacaca"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="取消" />
+</RelativeLayout>
